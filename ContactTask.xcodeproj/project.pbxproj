@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		550B9AAF23E589CB0011AAA1 /* ContactStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550B9AAE23E589CB0011AAA1 /* ContactStruct.swift */; };
+		550B9AB123E58F380011AAA1 /* ThinrdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550B9AB023E58F380011AAA1 /* ThinrdViewController.swift */; };
+		550B9AB323E593F40011AAA1 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550B9AB223E593F40011AAA1 /* Singleton.swift */; };
 		9753594D2382673C0063B399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753594C2382673C0063B399 /* AppDelegate.swift */; };
 		9753594F2382673C0063B399 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753594E2382673C0063B399 /* ViewController.swift */; };
 		975359522382673C0063B399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 975359502382673C0063B399 /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		97535957238267440063B399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97535955238267440063B399 /* LaunchScreen.storyboard */; };
 		97535962238267440063B399 /* data_transfer_through_delegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97535961238267440063B399 /* data_transfer_through_delegateTests.swift */; };
 		9753596D238267440063B399 /* data_transfer_through_delegateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753596C238267440063B399 /* data_transfer_through_delegateUITests.swift */; };
+		9753597B238269C70063B399 /* SecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753597A238269C70063B399 /* SecViewController.swift */; };
+		9753597E23826CF80063B399 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753597D23826CF80063B399 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		975359492382673C0063B399 /* data transfer through delegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "data transfer through delegate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		550B9AAE23E589CB0011AAA1 /* ContactStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactStruct.swift; sourceTree = "<group>"; };
+		550B9AB023E58F380011AAA1 /* ThinrdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinrdViewController.swift; sourceTree = "<group>"; };
+		550B9AB223E593F40011AAA1 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		975359492382673C0063B399 /* ContactTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9753594C2382673C0063B399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9753594E2382673C0063B399 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		975359512382673C0063B399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,8 @@
 		97535968238267440063B399 /* data transfer through delegateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "data transfer through delegateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9753596C238267440063B399 /* data_transfer_through_delegateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data_transfer_through_delegateUITests.swift; sourceTree = "<group>"; };
 		9753596E238267440063B399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9753597A238269C70063B399 /* SecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecViewController.swift; sourceTree = "<group>"; };
+		9753597D23826CF80063B399 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +97,7 @@
 		9753594A2382673C0063B399 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				975359492382673C0063B399 /* data transfer through delegate.app */,
+				975359492382673C0063B399 /* ContactTask.app */,
 				9753595D238267440063B399 /* data transfer through delegateTests.xctest */,
 				97535968238267440063B399 /* data transfer through delegateUITests.xctest */,
 			);
@@ -97,12 +107,18 @@
 		9753594B2382673C0063B399 /* data transfer through delegate */ = {
 			isa = PBXGroup;
 			children = (
+				9753597C23826CEA0063B399 /* New Group */,
 				9753594C2382673C0063B399 /* AppDelegate.swift */,
+				9753597D23826CF80063B399 /* File.swift */,
 				9753594E2382673C0063B399 /* ViewController.swift */,
 				975359502382673C0063B399 /* Main.storyboard */,
 				97535953238267440063B399 /* Assets.xcassets */,
 				97535955238267440063B399 /* LaunchScreen.storyboard */,
 				97535958238267440063B399 /* Info.plist */,
+				9753597A238269C70063B399 /* SecViewController.swift */,
+				550B9AAE23E589CB0011AAA1 /* ContactStruct.swift */,
+				550B9AB023E58F380011AAA1 /* ThinrdViewController.swift */,
+				550B9AB223E593F40011AAA1 /* Singleton.swift */,
 			);
 			path = "data transfer through delegate";
 			sourceTree = "<group>";
@@ -125,6 +141,13 @@
 			path = "data transfer through delegateUITests";
 			sourceTree = "<group>";
 		};
+		9753597C23826CEA0063B399 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,7 +165,7 @@
 			);
 			name = "data transfer through delegate";
 			productName = "data transfer through delegate";
-			productReference = 975359492382673C0063B399 /* data transfer through delegate.app */;
+			productReference = 975359492382673C0063B399 /* ContactTask.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9753595C238267440063B399 /* data transfer through delegateTests */ = {
@@ -204,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 975359442382673C0063B399 /* Build configuration list for PBXProject "data transfer through delegate" */;
+			buildConfigurationList = 975359442382673C0063B399 /* Build configuration list for PBXProject "ContactTask" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -257,7 +280,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9753594F2382673C0063B399 /* ViewController.swift in Sources */,
+				550B9AB323E593F40011AAA1 /* Singleton.swift in Sources */,
+				9753597E23826CF80063B399 /* File.swift in Sources */,
+				550B9AAF23E589CB0011AAA1 /* ContactStruct.swift in Sources */,
+				550B9AB123E58F380011AAA1 /* ThinrdViewController.swift in Sources */,
 				9753594D2382673C0063B399 /* AppDelegate.swift in Sources */,
+				9753597B238269C70063B399 /* SecViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +467,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "brn.data-transfer-through-delegate";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ContactTask;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,7 +484,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "brn.data-transfer-through-delegate";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ContactTask;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -543,7 +571,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		975359442382673C0063B399 /* Build configuration list for PBXProject "data transfer through delegate" */ = {
+		975359442382673C0063B399 /* Build configuration list for PBXProject "ContactTask" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9753596F238267440063B399 /* Debug */,
