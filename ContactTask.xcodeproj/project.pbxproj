@@ -17,7 +17,6 @@
 		97535957238267440063B399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97535955238267440063B399 /* LaunchScreen.storyboard */; };
 		97535962238267440063B399 /* data_transfer_through_delegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97535961238267440063B399 /* data_transfer_through_delegateTests.swift */; };
 		9753596D238267440063B399 /* data_transfer_through_delegateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753596C238267440063B399 /* data_transfer_through_delegateUITests.swift */; };
-		9753597B238269C70063B399 /* SecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753597A238269C70063B399 /* SecViewController.swift */; };
 		9753597E23826CF80063B399 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753597D23826CF80063B399 /* File.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,7 +54,6 @@
 		97535968238267440063B399 /* data transfer through delegateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "data transfer through delegateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9753596C238267440063B399 /* data_transfer_through_delegateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data_transfer_through_delegateUITests.swift; sourceTree = "<group>"; };
 		9753596E238267440063B399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9753597A238269C70063B399 /* SecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecViewController.swift; sourceTree = "<group>"; };
 		9753597D23826CF80063B399 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,7 +113,6 @@
 				97535953238267440063B399 /* Assets.xcassets */,
 				97535955238267440063B399 /* LaunchScreen.storyboard */,
 				97535958238267440063B399 /* Info.plist */,
-				9753597A238269C70063B399 /* SecViewController.swift */,
 				550B9AAE23E589CB0011AAA1 /* ContactStruct.swift */,
 				550B9AB023E58F380011AAA1 /* ThinrdViewController.swift */,
 				550B9AB223E593F40011AAA1 /* Singleton.swift */,
@@ -285,7 +282,6 @@
 				550B9AAF23E589CB0011AAA1 /* ContactStruct.swift in Sources */,
 				550B9AB123E58F380011AAA1 /* ThinrdViewController.swift in Sources */,
 				9753594D2382673C0063B399 /* AppDelegate.swift in Sources */,
-				9753597B238269C70063B399 /* SecViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
